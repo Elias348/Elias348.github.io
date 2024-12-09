@@ -3,23 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Template</title>
+    <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="name-title">
-                <h1>Elias Ayaz</h1>
-                <p>skole cv</p>
-            </div>
-            <div class="contact-info">
-                <p>Email: e-eliaya@iskule.no</p>
-            </div>
-        </header>
-        <hr>
-        <section class="summary">
-            <h2>Skole prosjekt</h2>
-        </section>
-        <section class="experience">
-            <div class="job">
+    <div class="game">
+        <div class="game-title">Tic Tac Toe</div>
+        <div class="player">
+            Player 1: <span id="player1Score">0</span>
+        </div>
+        <table id="game"></table>
+        <div class="player">
+            Player 2: <span id="player2Score">0</span>
+        </div>
+        <div class="winner" id="winnerMessage"></div>
+        <div class="draw" id="drawMessage"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

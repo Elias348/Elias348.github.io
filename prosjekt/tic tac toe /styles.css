@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.game {
+    margin: 50px auto;
+    display: inline-block;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.game-title {
+    font-size: 24pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.player {
+    margin: 10px;
+    font-size: 16pt;
+}
+
+#winnerMessage, #drawMessage {
+    margin-top: 20px;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.winner {
+    color: green;
+}
+
+.draw {
+    color: orange;
+}
+
+#game {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+#game td {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 24pt;
+    border: 1px solid black;
+    cursor: pointer;
+}
