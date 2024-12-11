@@ -25,7 +25,13 @@ body {
     margin: 10px;
     font-size: 16pt;
 }
+#player1{
+    color: green;
+}
 
+#player2{
+    color:red;
+}
 #winnerMessage, #drawMessage {
     margin-top: 20px;
     font-size: 18pt;
