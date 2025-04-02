@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#cookie {
+    font-size: 100px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 20px;
+    transition: transform 0.1s ease-in-out;
+}
+
+#cookie:active {
+    transform: scale(0.9);
+}
+
+.upgrade {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.upgrade:disabled {
+    background-color: green;
+    cursor: not-allowed;
+}
+
+#score, #click-value {
+    font-size: 24px;
+    margin: 10px;
+}
